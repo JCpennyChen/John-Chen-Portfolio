@@ -35,10 +35,10 @@ const renderProfileSection = () => {
         <div className="flip-container">
             <div className="profile-flip-container">
                 <div className="front-profile-image">
-                    <img src="public/photos/Profile-Image.png" alt="Front Profile" />
+                    <img src="/photos/Profile-Image.png" alt="Front Profile" />
                 </div>
                 <div className="back-profile-image">
-                    <img src="public/photos/JC.png" alt="Back Profile" />
+                    <img src="/photos/JC.png" alt="Back Profile" />
                 </div>
             </div>
         </div>
