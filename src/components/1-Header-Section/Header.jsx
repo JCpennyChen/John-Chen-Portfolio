@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import "/Users/johnchen123/John-Chen-Portfolio/src/css/1-header-section/header.css";
-import "/Users/johnchen123/John-Chen-Portfolio/src/css/1-header-section/top-left-profile-image.css";
-import "/Users/johnchen123/John-Chen-Portfolio/src/css/1-header-section/theme-toggle-button.css";
-import "/Users/johnchen123/John-Chen-Portfolio/src/css/1-header-section/top-right-button-container.css";
-import "/Users/johnchen123/John-Chen-Portfolio/src/css/1-header-section/drop-down-menu.css";
+import "/src/css/1-header-section/header.css";
+import "/src/css/1-header-section/top-left-profile-image.css";
+import "/src/css/1-header-section/theme-toggle-button.css";
+import "/src/css/1-header-section/top-right-button-container.css";
+import "/src/css/1-header-section/drop-down-menu.css";
 
 const Header = () => {
     const [open, setOpen] = useState(false);

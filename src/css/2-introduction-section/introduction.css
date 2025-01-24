@@ -73,7 +73,7 @@ body.dark-mode .autobiography {
   height: 200px;
   border: none;
   border-radius: 10px;
-  background-image: url('/public/photos/Whitivity.png');
+  background-image: url('/photos/Whitivity.png');
   background-size: cover;
   background-position: center;
   box-shadow: 0px 0px 10px 1px #000000;
@@ -85,7 +85,7 @@ body.dark-mode .autobiography {
   height: 250px;
   border: none;
   border-radius: 10px;
-  background-image: url('/public/photos/Selfie.png');
+  background-image: url('/photos/Selfie.png');
   background-size: cover;
   background-position: center;
   box-shadow: 0px 0px 10px 1px #000000;
@@ -96,7 +96,7 @@ body.dark-mode .autobiography {
   height: 175px;
   border: none;
   border-radius: 10px;
-  background-image: url('/public/photos/Ogaboga.png');
+  background-image: url('/photos/Ogaboga.png');
   background-size: cover;
   background-position: center;
   box-shadow: 0px 0px 10px 1px #000000;
@@ -121,7 +121,7 @@ body.dark-mode .autobiography {
   height: 250px;
   border: none;
   border-radius: 10px;
-  background-image: url('/public/photos/Dookiplex.png');
+  background-image: url('/photos/Dookiplex.png');
   background-size: cover;
   background-position: center;
   box-shadow: 0px 0px 10px 1px #000000;
@@ -132,7 +132,7 @@ body.dark-mode .autobiography {
   height: 200px;
   border: none;
   border-radius: 10px;
-  background-image: url('/public/photos/SanFran.png');
+  background-image: url('/photos/SanFran.png');
   background-size: cover;
   background-position: center;
   box-shadow: 0px 0px 10px 1px #000000;
@@ -156,7 +156,7 @@ body.dark-mode .autobiography {
   height: 250px;
   border: none;
   border-radius: 10px;
-  background-image: url('/public/photos/TriDog.png');
+  background-image: url('/photos/TriDog.png');
   background-size: cover;
   background-position: center;
   box-shadow: 0px 0px 10px 1px #000000;
@@ -168,7 +168,7 @@ body.dark-mode .autobiography {
   height: 200px;
   border: none;
   border-radius: 10px;
-  background-image: url('/public/photos/Kakapo.png');
+  background-image: url('/photos/Kakapo.png');
   background-size: cover;
   background-position: center;
   box-shadow: 0px 0px 10px 1px #000000;
