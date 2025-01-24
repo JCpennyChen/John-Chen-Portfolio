@@ -1,21 +1,17 @@
 /* Message Box Styling */
 .message-box {
+    color: #fb6900;
     text-align: center;
-    margin: 20px auto;
-    padding: 10px;
-    max-width: 800px;
 }
 
 .message-box h2 {
-    font-size: 64px; 
-    color: #fb6900;
-    margin-bottom: 10px;
+    font-size: 64px;
+    margin-bottom: 8px;
 }
 
 .message-box p {
     font-size: 32px;
-    color: #fb8d3e;
-    margin: 0; 
+    margin-top: 0;
 }
 
 /* Generic styling for all text inputs */
@@ -65,7 +61,6 @@
     position: relative;
     margin: 10px auto; 
     width: 75%;
-    max-width: 600px;
 }
 
 .top-contact-section-container {
@@ -75,6 +70,7 @@
     align-items: center;
     gap: 20px;
     max-width: 900px;
+    margin-bottom: 20px;
     margin: 0 auto;
 }
 
@@ -83,27 +79,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 900px;
+    max-width: 1200px;
     margin: 20px auto;
 }
 
 .top-contact-section-container .input-container {
-    margin-top: 80px; 
-}
-
-.bottom-contact-section-container .input-container {
     margin-top: 40px; 
 }
 
 /* Social Media Links */
 .wrapper {
+    justify-content: center;
     display: inline-flex;
     list-style: none;
     height: 120px;
     width: 100%;
     padding-top: 40px;
     font-family: "Poppins", sans-serif;
-    justify-content: center; 
 }
 
 .wrapper .icon {

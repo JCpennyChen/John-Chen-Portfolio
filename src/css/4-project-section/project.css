@@ -1,6 +1,14 @@
+.technical-projects {
+    text-align: left;
+    margin-left: 20px;
+}
+
 .technical-projects h1 {
     font-size: 34px;
     text-decoration: underline;
-    text-align: left;
-    margin-left: 20px;
+    color: rgb(48, 48, 35);
+}
+
+body.dark-mode .technical-projects h1 {
+    color: rgb(255, 255, 237);
 }

@@ -3,6 +3,20 @@ body {
   font-family: 'Dongle', sans-serif;
 }
 
+body.dark-mode {
+  background-color: rgb(48, 48, 35);
+}
+
+body, 
+.top-header, 
+.NavItem h1, 
+.Experience h1, 
+.technical-projects h1, 
+.burger, 
+.autobiography {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 h1 {
   font-family: 'Dongle', sans-serif;
   font-weight: bold;

@@ -8,7 +8,7 @@ function BottomContactSecion() {
             {/* Message Box Section */}
             <div className="message-box">
                 <h2>Send me a message!</h2>
-                <p>Got a question or proposal, or just want to say hello? Go ahead.</p>
+                <p>Have a question or proposal, or just want to say hello? Go ahead.</p>
             </div>
             {/* Top Contact Section */}
             <div className="top-contact-section-container">

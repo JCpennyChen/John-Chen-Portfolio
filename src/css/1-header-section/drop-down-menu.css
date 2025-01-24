@@ -26,6 +26,11 @@
     transition: .25s ease-in-out;
 }
 
+body.dark-mode .burger span {
+    background: white;
+}
+
+
 .burger span:nth-of-type(1) {
     top: 0px;
     transform-origin: left center;

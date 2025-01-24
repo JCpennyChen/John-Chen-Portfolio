@@ -8,7 +8,13 @@ import "/Users/johnchen123/John-Chen-Portfolio/src/css/1-header-section/drop-dow
 const Header = () => {
     const [open, setOpen] = useState(false);
     const toggleDropDownMenu = () => setOpen(!open);
-    const lightDarkMode = () => setOpen(!open);
+
+    const [isDarkMode, setDarkMode] = useState(false);
+
+    const lightDarkMode = () => {
+        setDarkMode(!isDarkMode);
+        document.body.classList.toggle("dark-mode", !isDarkMode);
+    };
 
     return (
         <header className="top-header">
@@ -81,10 +87,15 @@ function NavItem({ children, targetId }) {
     );
 }
 
-const ToggleButton = (lightDarkMode) => {
+const ToggleButton = (lightDarkMode, isDarkMode) => {
     return (
         <div class="theme-switch">
-            <input type="checkbox" id="theme-checkbox" />
+            <input
+                type="checkbox"
+                id="theme-checkbox"
+                checked={isDarkMode}
+                onChange={lightDarkMode}
+            />
             <label for="theme-checkbox">
                 <div></div>
                 <span>
@@ -115,7 +126,6 @@ const ToggleButton = (lightDarkMode) => {
                 </span>
             </label>
         </div>
-
     );
 }
 

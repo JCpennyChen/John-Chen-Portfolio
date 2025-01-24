@@ -1,170 +1,176 @@
 .introduction-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.autobiography {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgb(48, 48, 35);
+  max-width: 600px;
+  text-align: center;
+}
+
+body.dark-mode .autobiography {
+  color: rgb(255, 255, 237);
 }
 
 .autobiography h1 {
-    position: relative;
-    margin-left: 50px;
-    color: rgb(48, 48, 35);
-    font-weight: bold!important;
-    letter-spacing: 7px!important;
-    overflow: hidden;
-    border-right: 2px solid rgb(48, 48, 35);
-    white-space: nowrap;
-    animation: typewriter 4s steps(44) 1s 1 normal both,
-      blinkTextCursor 500ms infinite;
-    width: 490px;
-  }
-  
-  @keyframes typewriter {
-    from {
-      width: 0;
-    }
-    to {
-      width: 490px;
-    }
-  }
-  
-  @keyframes blinkTextCursor {
-    from {
-      border-right-color: rgb(48, 48, 35);
-    }
-    to {
-      border-right-color: transparent;
-    }
-  }
-  
-.autobiography {
-    flex: 1;
-    font-size: 1.1rem;
-    line-height: 1.6;
-    color: rgb(48, 48, 35);
-    max-width: 600px;
-    text-align: center;
+  position: relative;
+  margin-left: 50px;
+  font-weight: bold !important;
+  letter-spacing: 7px !important;
+  overflow: hidden;
+  border-right: 2px solid rgb(48, 48, 35);
+  white-space: nowrap;
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
+  width: 490px;
 }
 
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 490px;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgb(48, 48, 35);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+
 .card-container {
-    flex: 1;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    gap: 20px; 
-    position: relative;
-    padding-top: 30px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  padding-top: 30px;
 }
 
 .first-layer {
-    display: flex; 
-    flex-direction: row;
-    position: relative;
-    gap: 20px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  gap: 20px;
 }
 
 .Whitivity {
-    width: 200px;
-    height: 200px;
-    border: none;
-    border-radius: 10px;
-    background-image: url('/public/photos/Whitivity.png');
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0px 0px 10px 1px #000000;
-    margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  border: none;
+  border-radius: 10px;
+  background-image: url('/public/photos/Whitivity.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 10px 1px #000000;
+  margin-top: 20px;
 }
 
 .Selfie {
-    width: 200px;
-    height: 250px;
-    border: none;
-    border-radius: 10px;
-    background-image: url('/public/photos/Selfie.png');
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0px 0px 10px 1px #000000;
+  width: 200px;
+  height: 250px;
+  border: none;
+  border-radius: 10px;
+  background-image: url('/public/photos/Selfie.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 10px 1px #000000;
 }
 
 .Ogaboga {
-    width: 200px;
-    height: 175px;
-    border: none;
-    border-radius: 10px;
-    background-image: url('/public/photos/Ogaboga.png');
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0px 0px 10px 1px #000000;
-    margin-top: 30px;
+  width: 200px;
+  height: 175px;
+  border: none;
+  border-radius: 10px;
+  background-image: url('/public/photos/Ogaboga.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 10px 1px #000000;
+  margin-top: 30px;
 }
 
 .second-layer {
-    display: flex;
-    padding-left: 30px;
-    padding-top: 30px;
-    flex-direction: row;
-    gap: 120px;
-    position: absolute;
-    top: 200px;
-    left: 50%; 
-    transform: translateX(-50%);
-    z-index: 3;
+  display: flex;
+  padding-left: 30px;
+  padding-top: 30px;
+  flex-direction: row;
+  gap: 120px;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
 }
 
 .Dookiplex {
-    width: 275px;
-    height: 250px;
-    border: none;
-    border-radius: 10px;
-    background-image: url('/public/photos/Dookiplex.png');
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0px 0px 10px 1px #000000;
+  width: 275px;
+  height: 250px;
+  border: none;
+  border-radius: 10px;
+  background-image: url('/public/photos/Dookiplex.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 10px 1px #000000;
 }
 
 .SanFran {
-    width: 280px;
-    height: 200px;
-    border: none;
-    border-radius: 10px;
-    background-image: url('/public/photos/SanFran.png');
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0px 0px 10px 1px #000000;
+  width: 280px;
+  height: 200px;
+  border: none;
+  border-radius: 10px;
+  background-image: url('/public/photos/SanFran.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 10px 1px #000000;
 }
 
 .third-layer {
-    display: flex;
-    padding-top: 30px;
-    flex-direction: row;
-    position: absolute;
-    top: 250px;
-    gap: 25px;
-    left: 60%; 
-    transform: translateX(-50%);
-    z-index: 3;
+  display: flex;
+  padding-top: 30px;
+  flex-direction: row;
+  position: absolute;
+  top: 250px;
+  gap: 25px;
+  left: 60%;
+  transform: translateX(-50%);
+  z-index: 3;
 }
 
 
 .TriDog {
-    width: 350px;
-    height: 250px;
-    border: none;
-    border-radius: 10px;
-    background-image: url('/public/photos/TriDog.png');
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0px 0px 10px 1px #000000;
-    margin-top: 170px;
+  width: 350px;
+  height: 250px;
+  border: none;
+  border-radius: 10px;
+  background-image: url('/public/photos/TriDog.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 10px 1px #000000;
+  margin-top: 170px;
 }
 
 .Kakapo {
-    width: 200px;
-    height: 200px;
-    border: none;
-    border-radius: 10px;
-    background-image: url('/public/photos/Kakapo.png');
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0px 0px 10px 1px #000000;
-    margin-top: 130px;
+  width: 200px;
+  height: 200px;
+  border: none;
+  border-radius: 10px;
+  background-image: url('/public/photos/Kakapo.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 10px 1px #000000;
+  margin-top: 130px;
 }
