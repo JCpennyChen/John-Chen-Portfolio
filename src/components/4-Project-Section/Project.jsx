@@ -1,5 +1,5 @@
 import React from "react";
-import "/Users/johnchen123/John-Chen-Portfolio/src/css/4-project-section/project.css";
+import "/src/css/4-project-section/project.css";
 
 function Project() {
     return (

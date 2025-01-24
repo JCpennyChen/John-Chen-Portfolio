@@ -1,6 +1,6 @@
 import React from "react";
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import "/Users/johnchen123/John-Chen-Portfolio/src/css/5-bottom-contact-section/bottom-contact-section.css";
+import "/src/css/5-bottom-contact-section/bottom-contact-section.css";
 
 function BottomContactSecion() {
     return (

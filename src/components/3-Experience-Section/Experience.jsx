@@ -1,5 +1,5 @@
 import React from "react";
-import "/Users/johnchen123/John-Chen-Portfolio/src/css/3-experience-section/experience.css";
+import "/src/css/3-experience-section/experience.css";
 
 function Experience() {
     return (
