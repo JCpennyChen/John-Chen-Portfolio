@@ -12,3 +12,13 @@
 body.dark-mode .Experience h1 {
     color: rgb(255, 255, 237);
 }
+
+.Dayforce {
+    display: flex;
+    align-items: center; 
+    gap: 8px;
+}
+
+.Dayforce h2 {
+    margin-top: 20px;
+}

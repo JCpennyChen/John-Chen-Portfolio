@@ -7,6 +7,12 @@ function Experience() {
             <div className="Experience">
                 <h1>Experiences</h1>
             </div>
+            <div className="previous-job-container">
+                <div className="Dayforce">
+                    <h1>____</h1>
+                    <h2>Dayforce</h2>
+                </div>
+            </div>
         </div>
     );
 }

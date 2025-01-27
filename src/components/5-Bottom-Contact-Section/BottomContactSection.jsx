@@ -9,7 +9,7 @@ function BottomContactSecion() {
             <div className="message-box">
                 <h2>Send me a message!</h2>
                 <p>Have a question or proposal, or just want to say hello? Go ahead.</p>
-            </div>
+            </div> 
             {/* Top Contact Section */}
             <div className="top-contact-section-container">
                 <div className="input-container">
